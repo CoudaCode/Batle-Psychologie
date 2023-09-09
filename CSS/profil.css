@@ -94,3 +94,61 @@ button {
 button:hover {
   background-color: #d2691e;
 }
+
+
+.rejoindre {
+  background-color: #f9f9f9;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.rejoindre-header h2 {
+  color: #d2691e;
+}
+
+.rejoindre-body p {
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  background-color: #d2691e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #d2691e;
+}
+
+.rejoindre button a {
+  display: block;
+  background-color: #d2691e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.rejoindre button a:hover {
+  background-color: #d2691e;
+}
+
+.rejoindre button {
+  margin: 10px 0;
+}
