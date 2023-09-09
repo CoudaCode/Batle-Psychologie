@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Montserrat:wght@100&family=Poppins:wght@200&display=swap");
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header h1 {
+  margin: 0;
+}
+.navbar {
+  background-color: #d2691e;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar .logo a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .logo a:hover {
+  text-decoration: none;
+  color: black;
+}
+.navbar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+.navbar nav ul li:hover {
+  background-color: #8b4513;
+}
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar nav ul li a:hover {
+  color: black;
+}
+.navbar nav ul li .active {
+  color: black;
+}
+
+.post-form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.post-form h2 {
+  color: #d2691e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+button {
+  background-color: #d2691e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #d2691e;
+}

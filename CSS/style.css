@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Montserrat:wght@100&family=Poppins:wght@200&display=swap");
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header h1 {
+  margin: 0;
+}
+.navbar {
+  background-color: #d2691e;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar .logo a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .logo a:hover {
+  text-decoration: none;
+  color: black;
+}
+.navbar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+.navbar nav ul li:hover {
+  background-color: #8b4513;
+}
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar nav ul li a:hover {
+  color: black;
+}
+.navbar nav ul li .active {
+  color: black;
+}
+
+.banner {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+.banner .logCon button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d2691e;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.banner .logCon button:hover {
+  background-color: #a0522d;
+}
+.banner .logCon a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: none;
+}
+
+.container .contentHist .histoire {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.container .contentCitations .citations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.container .contentHist .histoire .cardHistoire {
+  width: 400px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container .contentCitations .citations .cardCitations {
+  width: 400px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.objectif {
+  background-color: #f0f0f0;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.objectif-header h2 {
+  color: #d2691e;
+}
+
+.objectif-body p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.objectif-body p span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.rejoindre {
+  background-color: #f9f9f9;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.rejoindre-header h2 {
+  color: #d2691e;
+}
+
+.rejoindre-body p {
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  background-color: #d2691e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #d2691e;
+}
+
+.rejoindre button a {
+  display: block;
+  background-color: #d2691e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.rejoindre button a:hover {
+  background-color: #d2691e;
+}
+
+.rejoindre button {
+  margin: 10px 0;
+}
